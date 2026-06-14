@@ -36,6 +36,3 @@ Final config: `chunk_size=512`, `overlap_ratio=0.15`, `top_k=8`, max 2 chunks/ar
   innovation" article is buried by the COVID-heavy 2020 corpus; the safe refusal is the
   assignment's intended behaviour on weak context (not a hallucination). A future improvement
   would fetch the top candidate's full text for summary-type questions.
-
-## Cost
-Full-corpus embed ≈ $0.245 (12.26M tokens). Total spend incl. validation ≈ $0.28 of the $5 budget.
