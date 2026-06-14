@@ -39,11 +39,11 @@ medium-rag/
 ## Setup
 ```bash
 npm install
-cp .env.example .env.local   # fill in real keys (never commit them)
+cp .env.example .env.local 
 ```
 Put the dataset at `data/medium-english-50mb.csv` (gitignored). Then run the dev server:
 ```bash
-npm run dev   # http://localhost:3000
+npm run dev   
 ```
 
 ### Environment variables
